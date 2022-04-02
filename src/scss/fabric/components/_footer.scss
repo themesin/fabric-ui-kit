@@ -1,0 +1,31 @@
+
+.footer {
+    position: relative;
+
+    .social-btn-group {
+
+        a,
+        .btn {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .copyright {
+        font-size: $font-size-sm;
+    }
+
+     ul {
+         &.list-horizontal {
+
+             &:first-child a {
+                 padding-left: 0;
+             }
+
+             &:last-child a {
+                 padding-right: 0;
+             }
+         }
+
+     }
+}

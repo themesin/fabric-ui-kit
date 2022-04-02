@@ -1,0 +1,40 @@
+<html lang="en">
+@@include("./_header.html", {"path":"..", "title":"Fabric Bootstrap UI kit by Themesin"})
+
+<body>
+
+    @@include("./_navigation.html", {"path":"..", "navbg": "navbar-dark bg-primary", "theme":"fabric"})
+
+    <main>
+
+        <div class="bg-primary content-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="text-white display-2">Footers</h1>
+                        <p class="lead text-white opacity-75 mt-3">
+                            A footer is a navigation component. It can hold links, company info, forms
+                            and more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-6">
+            <div class="row">
+                <div class="col-12">
+                    @@include("./components/_footers.html", {"path":".."})
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    @@include("./_footer.html", {"path":"..", "theme":"fabric"})
+
+    @@include("./_scripts.html", {"path":".."})
+
+
+</body>
+
+</html>

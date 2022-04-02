@@ -1,0 +1,6 @@
+@each $key in map-keys(map-remove($grid-breakpoints, xs, xl, xxl)) {
+    @include animate-components($key)
+}
+
+
+

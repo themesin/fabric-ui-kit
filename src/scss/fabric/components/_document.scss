@@ -1,0 +1,38 @@
+main {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+strong {
+    font-weight: $font-weight-bold;
+}
+
+button:focus {
+    outline: 0;
+}
+
+iframe {
+    border: 0;
+}
+
+figcaption,
+figure,
+main {
+    display: block;
+    margin: 0;
+}
+
+input.text,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="button"],
+input[type="submit"],
+[type=button],
+[type=submit],
+.input-checkbox {
+    -webkit-appearance: none;
+}

@@ -1,0 +1,4 @@
+@each $name,
+$value in $theme-colors {
+    @include popover-variant($name, $value);
+}
